@@ -1,0 +1,13 @@
+num_networks: 30 # number of networks
+num_nodes: 5 # number of nodes
+num_pd: 20 # maximum number of P/D points in a node
+num_trans_site: 10 # number of sites
+max_node_vehicle: 1 # maximum number of vehicles in a node
+max_trans_capacity: 1 # maximum capacity of a site
+max_trans_pt: 20 # maximum process time in a site
+max_from_to: 10 # maximum transportation time in a node
+
+num_jobs: 5 # number of jobs
+max_start_after: 0 # maximum request generated time
+flexible: True # flexible MHSP
+node_init_pos: 0
