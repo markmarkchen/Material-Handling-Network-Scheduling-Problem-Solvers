@@ -4,7 +4,7 @@ import json
 import os
 from tqdm import tqdm
 import sys
-from MaterialHandlingSchedulingProblemSolvers import MHSP_Benchmark, CP_Solver, IP_Solver, DE_Solver
+from MaterialHandlingNetworkSchedulingProblemSolvers import MHSP_Benchmark, CP_Solver, IP_Solver, DE_Solver
 import pickle
 from itertools import product
 
