@@ -45,7 +45,7 @@ def solve(path, Benchmark, fixed, inf):
     if fixed:
         Benchmark.GenerateOperations(min_optional_path = 1, max_optional_path = 1, factor=1)
     else:
-        Benchmark.GenerateOperations(min_optional_path = 3, max_optional_path = 100, factor=5)
+        Benchmark.GenerateOperations(min_optional_path = 3, max_optional_path = 30, factor=2)
     
     Benchmark.InfCapacity = inf
     text = "fixed" if fixed else "flexible"
